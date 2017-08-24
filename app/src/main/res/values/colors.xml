@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 基础色彩 -->
+    <color name="app_primary">#1887f0</color>
+    <color name="common_bg_dark">#EEEEEE</color>
+    <color name="common_bg_light">#FFFFFF</color>
+    <color name="common_tv_dark">#363636</color>
+    <color name="common_tv_light">#FFFFFF</color>
+    <color name="common_tv_grey">#AAAAAA</color>
+</resources>

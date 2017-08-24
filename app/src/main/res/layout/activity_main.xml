@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gxg.demojiuxi6.mydemo6.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_viewstub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="网络请求"
+        />
+
+    <Button
+        android:id="@+id/button_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="ViewStub"
+      />
+
+    <Button
+        android:id="@+id/button_viewstub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="Multistatus"
+        />
+
+
+    <Button
+        android:id="@+id/button_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="视频列表"
+        />
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="版本更新"
+        />
+
+    <Button
+        android:id="@+id/button_zidingyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="各种自定义view"
+        />
+
+</LinearLayout>

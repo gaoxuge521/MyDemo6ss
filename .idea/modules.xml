@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImageLoader/ImageLoader.iml" filepath="$PROJECT_DIR$/ImageLoader/ImageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemo6.iml" filepath="$PROJECT_DIR$/MyDemo6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullRefreshView/PullRefreshView.iml" filepath="$PROJECT_DIR$/PullRefreshView/PullRefreshView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RVHelper/RVHelper.iml" filepath="$PROJECT_DIR$/RVHelper/RVHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoListPlayer/VideoListPlayer.iml" filepath="$PROJECT_DIR$/VideoListPlayer/VideoListPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateapp/updateapp.iml" filepath="$PROJECT_DIR$/updateapp/updateapp.iml" />
+    </modules>
+  </component>
+</project>
