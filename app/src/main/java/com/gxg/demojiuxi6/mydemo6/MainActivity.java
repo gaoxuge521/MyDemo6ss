@@ -7,9 +7,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.gxg.demojiuxi6.mydemo6.http.HttpDemoActivity;
+import com.gxg.demojiuxi6.mydemo6.materialviewpager.MaterialViewPagerActivity;
 import com.gxg.demojiuxi6.mydemo6.multistatusview.Main2Activity;
 import com.gxg.demojiuxi6.mydemo6.updateapp.UpdataAppActivity;
 import com.gxg.demojiuxi6.mydemo6.video.VideoListActivity;
+import com.gxg.demojiuxi6.mydemo6.video.VideoOneActivity;
 import com.gxg.demojiuxi6.mydemo6.zidingyiview.ZiDingYiViewActivity;
 import com.gxg.demojiuxi6.mydemo6.zidingyiview.ZidingyiOneActivity;
 
@@ -36,9 +38,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.button_zidingyi,R.id.button_update,R.id.button_viewstub, R.id.button_viewstub2, R.id.button_viewstub3,R.id.button_video})
+    @OnClick({R.id.button_video_one,R.id.button_materialViewPager,R.id.button_zidingyi,R.id.button_update,R.id.button_viewstub, R.id.button_viewstub2, R.id.button_viewstub3,R.id.button_video})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.button_video_one:
+                startActivity(new Intent(MainActivity.this, VideoOneActivity.class));
+                break;
             case R.id.button_zidingyi:
                 startActivity(new Intent(MainActivity.this, ZidingyiOneActivity.class));
                 break;
@@ -56,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button_video:
                 startActivity(new Intent(MainActivity.this, VideoListActivity.class));
+                break;
+            case R.id.button_materialViewPager:
+                startActivity(new Intent(MainActivity.this, MaterialViewPagerActivity.class));
                 break;
         }
     }

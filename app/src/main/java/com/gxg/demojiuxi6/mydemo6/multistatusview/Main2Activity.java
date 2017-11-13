@@ -44,13 +44,19 @@ public class Main2Activity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
                 switch (checkedId){
                     case R.id.rb1:
+                        main.setVisibility(View.VISIBLE);
                         main.showError();
                         break;
                     case R.id.rb2:
+                        main.setVisibility(View.VISIBLE);
                         main.showLoading();
                         break;
                     case R.id.rb3:
+                        main.setVisibility(View.VISIBLE);
                         main.showEmpty();
+                        break;
+                    case R.id.rb4:
+                        main.setVisibility(View.GONE);
                         break;
                 }
             }

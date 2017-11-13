@@ -3,10 +3,9 @@
     package="com.gxg.demojiuxi6.mydemo6">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".MainApplication"
@@ -26,15 +25,17 @@
         <activity android:name=".ViewStubsActivity" />
         <activity android:name=".multistatusview.Main2Activity" />
         <activity android:name=".glidedemo.GlideDemoActivity" />
-        <activity android:name=".http.HttpDemoActivity"/>
-        <activity android:name=".video.VideoListActivity"
+        <activity android:name=".http.HttpDemoActivity" />
+        <activity
+            android:name=".video.VideoListActivity"
             android:configChanges="orientation|screenSize|layoutDirection"
-            android:screenOrientation="portrait" >
-
-        </activity>
-        <activity android:name=".updateapp.UpdataAppActivity"/>
-        <activity android:name=".zidingyiview.ZiDingYiViewActivity"/>
-        <activity android:name=".zidingyiview.ZidingyiOneActivity"/>
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".updateapp.UpdataAppActivity" />
+        <activity android:name=".zidingyiview.ZiDingYiViewActivity" />
+        <activity android:name=".zidingyiview.ZidingyiOneActivity" />
+        <activity android:name=".materialviewpager.MaterialViewPagerActivity"
+            android:theme="@style/MyAppTheme"></activity>
+        <activity android:name=".video.VideoOneActivity"></activity>
     </application>
 
 </manifest>

@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:background="@android:color/black"
-        android:text="Multistatus"
+        android:text="多状态布局Multistatus"
         />
 
 
@@ -43,6 +43,14 @@
         android:textColor="@android:color/white"
         android:background="@android:color/black"
         android:text="视频列表"
+        />
+    <Button
+        android:id="@+id/button_video_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="视频videoplay"
         />
     <Button
         android:id="@+id/button_update"
@@ -61,5 +69,12 @@
         android:background="@android:color/black"
         android:text="各种自定义view"
         />
-
+    <Button
+        android:id="@+id/button_materialViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="MaterialViewPager"
+        />
 </LinearLayout>

@@ -1,1 +1,1 @@
-include ':app',':VideoListPlayer',':PullRefreshView',':RVHelper',':ViewPagerIndicator',':ImageLoader',':updateapp'
+include ':app',':VideoListPlayer',':PullRefreshView',':RVHelper',':ViewPagerIndicator',':ImageLoader',':updateapp',':materialviewpager'
